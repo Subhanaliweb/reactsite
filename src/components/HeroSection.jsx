@@ -6,7 +6,7 @@ import { useGlobalContext } from '../context';
 
 const HeroSection = () => {
   const {name, image} = useGlobalContext();
-  return (
+  return (  
     <Wrapper>
         <div className="container grid grid-two-column">
             <div className="section-hero-data">
